@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+}
+
+.ttt-Button ,.ttt-ButtonRe{
+    outline: 0;
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid rgb(196, 128, 184);
+    background: rgb(196, 128, 184);
+    color: #000;
+    font-weight: bolder;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.ttt-Button:hover , .ttt-ButtonRe:hover {
+    background-color: rgb(196, 128, 184);
+    color: #000;
+    box-shadow: 0 0 5px rgb(196, 128, 184),
+                0 0 20px rgb(214, 157, 204),
+                0 0 35px rgb(211, 155, 201),
+                0 0 50px rgb(233, 177, 223);
+    border-color: #fff;
+}
+ 
+.game-area {
+    margin:0 auto;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Permanent Marker", cursive;
+}
+
+.game-options select, .game-options input  {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.game-board {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.grid-cell {
+    font-size: 40px;
+    padding: 15px 25px;
+    width: 90px;
+    background-color: #FCFCFC;
+}
+
+.green-player {
+    font-size: 40px;
+    padding: 15px 25px;
+    width: 90px;
+    background-color: green;
+    color: #FFF;
+}
+
+.red-player {
+    font-size: 40px;
+    padding: 15px 25px;
+    width: 90px;
+    background-color: red;
+    color: #FFF;
+}

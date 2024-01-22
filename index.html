@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--Links-->
+	<link rel="stylesheet" href="/CSS/tic-tac-toe.css">
+	<script src="/JS/tic-tac-toe.js"></script>
+    <!---->
+
+	<title>Tic-Tac-Toe Game</title>
+
+</head>
+<body>
+
+	<!--tic-tac-toe game-->
+    <section>
+		<div class="game-area">
+			<h1>Welcome to Tic-Tac-Toe</h1>
+			<br>
+			<button class="ttt-Button" type="submit" onclick="generateGame()">Start Game</button>
+			<button class="ttt-ButtonRe" type="submit" onclick="generateGameRe()">Restart Game</button>
+
+			<div class="game-board" id="game-board"></div>
+			<div class="score-card">
+				<p>Player X Score: <span id="score-X">0</span></p>
+				
+				<p>Player O Score: <span id="score-O">0</span></p>
+			
+			</div>
+		</div>
+	</section>
+</body>
+</html>
